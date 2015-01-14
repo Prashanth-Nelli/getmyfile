@@ -1,16 +1,19 @@
-var request = require("request");
-var url = require('url');
-var path = require('path');
-var fs = require('fs');
+#!usr/bin/env node
+
+var request   = require("request");
+var url       = require('url');
+var path      = require('path');
+var fs        = require('fs');
 var Transform = require('stream').Transform;
-var util = require('util');
+var util      = require('util');
+
 util.inherits(Notify, Transform);
 
-var fileSize = 0;
-var noOfChunks = 0;
+var fileSize     = 0;
+var noOfChunks   = 0;
 var totalPercent = 0;
 
-var arguments = Array.prototype.slice.call(process.argv);
+var arguments    = Array.prototype.slice.call(process.argv);
 
 function Notify() {
 	Transform.call(this);

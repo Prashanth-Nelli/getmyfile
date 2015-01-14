@@ -1,31 +1,26 @@
 {
-  "name": "getmyfile",
-  "version": "1.0.0",
-  "description": "A commandline filegetter ",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/Prashanth-Nelli/getmyfile.git"
-  },
-  "keywords": [
-    "commandline",
-    "file",
-    "getter",
-    "file",
-    "getter",
-    "file",
-    "download"
-  ],
-  "author": "Nelli.Prashanth Kumar <nelli.prashanth1501@gmail.com>",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/Prashanth-Nelli/getmyfile/issues"
-  },
-  "homepage": "https://github.com/Prashanth-Nelli/getmyfile",
-  "dependencies": {
-    "request": "^2.51.0"
-  }
+	"name": "getmyfile",
+	"version": "1.0.0",
+	"description": "A commandline filegetter ",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/Prashanth-Nelli/getmyfile.git"
+	},
+	"bin": {
+		"getmyfile": "./index.js"
+	},
+	"keywords": ["commandline", "file", "getter", "file", "getter", "file", "download"],
+	"author": "Nelli.Prashanth Kumar <nelli.prashanth1501@gmail.com>",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/Prashanth-Nelli/getmyfile/issues"
+	},
+	"homepage": "https://github.com/Prashanth-Nelli/getmyfile",
+	"dependencies": {
+		"request": "^2.51.0"
+	}
 }
