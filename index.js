@@ -43,17 +43,9 @@ get(transform(arguments[2]));
 function transform(filepath) {
 	var link = url.parse(filepath);
 	if (link.protocol) {
-		if (link.pathname.charAt(0) == '/') {
-			return link.protocol + "//" + link.host + link.pathname.slice(1);
-		} else {
-			return link.protocol + "//" + link.host + link.pathname;
-		}
+		return link.protocol + "//" + link.host + link.pathname;
 	} else {
-		if (link.pathname.charAt(0) == '/') {
-			return "http://" + link.pathname.slice(1);
-		} else {
-			return "http://" + link.pathname;
-		}
+		return "http://" + link.pathname;
 	}
 }
 
