@@ -5,17 +5,17 @@ Commandline file downloader
 ###How to Install
 
 ```javascript
-    
-    npm install -g getmyfile
-    
+
+npm install -g getmyfile
+
 ```
 
 
 ###CLI Docs
 
 ```javascript
-    
-  getmyfile fileaddress 
+
+getmyfile fileaddress 
     
 ```
 
@@ -23,7 +23,7 @@ Commandline file downloader
 
 ```javascript
 
-  getmyfile "http://somewebsite.com/index.html"
+getmyfile "http://somewebsite.com/index.html"
 
 ```
 
