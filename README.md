@@ -1,11 +1,21 @@
 # getmyfile
 Commandline file downloader
 
+
+###How to Install
+
+```javascript
+    
+    npm install -g getmyfile
+    
+```
+
+
 ###CLI Docs
 
 ```javascript
     
-   getmyfile fileaddress
+  getmyfile fileaddress 
     
 ```
 
